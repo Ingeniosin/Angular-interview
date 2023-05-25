@@ -1,0 +1,8 @@
+
+core_app/storage/
+
+core_app/test/
+
+.idea/
+
+client_app/.vscode/

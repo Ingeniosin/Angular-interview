@@ -1,0 +1,37 @@
+{
+  "name": "core_app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/bin/www.js",
+    "dev": "set NODE_ENV=develop& nodemon src/bin/www.js",
+    "lint": "eslint src",
+    "test": "set NODE_ENV=test&& set NODE_NO_WARNINGS=1&& set NODE_OPTIONS=--experimental-vm-modules && npx jest"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "config": "^3.3.8",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "4.3.4",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "morgan": "~1.9.1",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1",
+    "sha256": "^0.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}

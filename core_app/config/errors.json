@@ -1,0 +1,17 @@
+﻿[
+  {
+    "message": "Ocurrió un error interno en el servidor.",
+    "code": "INTERNAL_ERROR",
+    "status": 500
+  },
+  {
+    "message": "El formato enviado no es correcto.",
+    "code": "MALFORMED_JSON",
+    "status": 400
+  },
+  {
+    "message": "Hace falta un campo requerido.",
+    "code": "REQUIRED_FIELD_IS_MISSING",
+    "status": 400
+  }
+]

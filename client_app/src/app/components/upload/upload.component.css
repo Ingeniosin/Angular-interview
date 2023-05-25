@@ -1,0 +1,21 @@
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: azure;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div > label {
+  color: black;
+  font-weight: bold;
+}
